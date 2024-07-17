@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    color: beige;
+}
+
+/* nav container section */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+/* container section */
+
+.container-main {
+    height: 300px;
+    width: 280px;
+    background-color: rgb(252, 145, 45);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* container button section */
+button {
+    background-color: none;
+}
+
+button {
+    background-color: #0b006b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.container-btn {
+    margin: 0px 70px;
+}
+
+/* container element section */
+
+nav section div div div center img {
+    margin-top: 20px;
+}
+
+.container-heading {
+    font-size: 29px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.container-p {
+    margin: 20px;
+    font-size: 14px;
+}
