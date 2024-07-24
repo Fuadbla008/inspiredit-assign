@@ -1,6 +1,12 @@
 body {
     font-family: sans-serif;
+    background-color: #a59cf3;
+}
+/* first section is navber.... and this full section is navber stylesheet */
+
+nav{
     color: beige;
+    
 }
 
 /* nav container section */
@@ -20,6 +26,7 @@ body {
     background-color: rgb(252, 145, 45);
     margin: 15px;
     border-radius: 10px;
+    
 }
 
 /* container button section */
@@ -58,4 +65,71 @@ nav section div div div center img {
 .container-p {
     margin: 20px;
     font-size: 14px;
+}
+
+
+/* this full section is main tag context stylesheet */
+
+
+
+/* portfolio full section */
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+/* portfolio container 1 section stylesheet */
+ .portfolio-cont-1{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+
+ }
+
+.portfolio-cont-1-nav{
+    display: flex;
+    
+}
+.pc1n-home:hover{
+    background-color: rgb(255, 33, 33);
+    text-decoration: none;
+    border-radius: 25px;
+}
+.pc1n-home{
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+.pc1n-blog:hover{
+    background-color: rgb(255, 33, 33);
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.pc1n-blog{
+    padding: 15px;
+    text-transform: uppercase;
+
+}
+
+
+/* portfolio container 2 section stylesheet */
+
+ .portfolio-cont-2{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+ }
+
+ .portfolio-cont-2-nav{
+    display: flex;
+ }
+
+.pc2n-product{
+    padding: 15px;
+}
+.pc2n-info{
+    padding: 15px;
 }
