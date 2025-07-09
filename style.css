@@ -16,13 +16,38 @@ hr {
     background-color: #f8f9fa;
 
     .details {
-        display: flex;
-        flex-direction: column;
         color: blue;
         a{
             text-decoration: none;
             color: blue;
             font-size: larger;
+        }
+    }
+}
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    div {
+        display: flex;
+        gap: 3rem;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            li{
+                list-style: none;
+            }
         }
     }
 }
