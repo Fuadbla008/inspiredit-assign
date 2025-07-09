@@ -8,6 +8,9 @@ hr {
     border-radius: 10px;
     background-color: black;
 }
+
+/* this is main nav stylesheet */
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -24,6 +27,8 @@ hr {
         }
     }
 }
+
+/* this is second nav stylesheet */
 
 .second-nav {
     display: flex;
@@ -49,5 +54,29 @@ hr {
                 list-style: none;
             }
         }
+    }
+}
+
+/* this is header section stylesheet */
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+
+    div{
+        width: 50%;
+    }
+    h1 {
+        font-size: 2.5rem;
+        color: #343a40;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #6c757d;
     }
 }
