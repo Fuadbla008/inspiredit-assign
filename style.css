@@ -87,3 +87,34 @@ hr {
         color: #f8f9fa;
     }
 }
+
+/* intro section stylesheet */
+
+.intro-chairman {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    div {
+        width: 50%;
+        margin: 3%;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: #343a40;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #6c757d;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+        border-radius: 50%;
+    }
+}
