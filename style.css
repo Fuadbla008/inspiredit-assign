@@ -20,7 +20,8 @@ hr {
 
     .details {
         color: blue;
-        a{
+
+        a {
             text-decoration: none;
             color: blue;
             font-size: larger;
@@ -50,7 +51,8 @@ hr {
             text-decoration: none;
             color: black;
             font-size: larger;
-            li{
+
+            li {
                 list-style: none;
             }
         }
@@ -65,18 +67,23 @@ hr {
     align-items: start;
     flex-direction: column;
     padding: 20px;
+    background-image: url('./asset/header-img.jpg');
+    background-size: cover;
 
-    div{
+    div {
         width: 50%;
+        height: 80vh;
+        margin: 3%;
     }
+
     h1 {
         font-size: 2.5rem;
-        color: #343a40;
+        color: white;
         margin-bottom: 10px;
     }
 
     p {
         font-size: 1.2rem;
-        color: #6c757d;
+        color: #f8f9fa;
     }
 }
